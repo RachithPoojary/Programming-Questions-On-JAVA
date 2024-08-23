@@ -1,3 +1,5 @@
+//WAP TO CALCULATE THE TOTAL NUMBER OF DIGITS IN A NUMBER
+
 import java.util.Scanner;
 
 class NumberOfDigit {
@@ -10,5 +12,9 @@ class NumberOfDigit {
             count++;
         }
         System.out.println(count);
+    }
+    //second way to find the count `
+    public static void way2(int num){
+        int count= (int)(Math.log10(num)+1);
     }
 }

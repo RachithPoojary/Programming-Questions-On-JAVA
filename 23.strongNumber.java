@@ -1,3 +1,5 @@
+//WAP TO CHECK WHETHER THE GIVVEN NUMBER IS STRONG NUMBER OR NOT
+
 import java.util.Scanner;
 
 class strongNumber {
