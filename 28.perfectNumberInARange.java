@@ -1,3 +1,5 @@
+//WAP TO DISPLAY ALL THE PERFECT NUMBER IN BETWEEN 1 AND 1000
+
 class perfectNumberInARange {
     public static void main(String[] args) {
         for (int n = 1;n<=1000;n++){

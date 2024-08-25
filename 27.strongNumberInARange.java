@@ -1,5 +1,4 @@
-import java.util.Scanner;
-
+//WAP A PROGRAM TO DISPLAY ALL THE STRONG NUMBERS IN THE RANGE OF 1 TO 1000
 class strongNumberInARange {
     public static void main(String[] args) {
         for (int n = 1;n<=1000;n++){
