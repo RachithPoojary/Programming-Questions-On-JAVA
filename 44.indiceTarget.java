@@ -1,6 +1,8 @@
+//WAP TO INDICES OF AN ARRAY WHICH SUM UP TO THE TARGET
+
 import java.util.Scanner;
 
-public class indiceTarget {
+class indiceTarget {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();

@@ -1,6 +1,6 @@
-//WAP TO DISPLAY
+//WAP TO DISPLAY THE TOTAL NUMBER OF STEPS REQUIRED TO CONVERT ALL THE DIGITS TO THE SPECIFIC TARGET
 
-public class TotalDecrement {
+class TotalDecrement {
     public static void main(String[] args) {
         int[] a = { 5,9,12,16,25};
         int k = 6;

@@ -1,7 +1,9 @@
+//WAP TO DISPLAY ALL THE LEADERS IN AN ARRAY
+
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class printLeader {
+class printLeader {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();

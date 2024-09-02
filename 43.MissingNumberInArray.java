@@ -1,4 +1,6 @@
-public class MissingNumberInArray {
+//WAP TO FIND THE MISSING NUMBER IN AN ARRAY
+
+class MissingNumberInArray {
     public static void main(String[] args) {
         int[] a = { 9,6,4,2,3,8,7,0,1};
         int n = 9;

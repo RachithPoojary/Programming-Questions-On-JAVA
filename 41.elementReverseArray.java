@@ -1,7 +1,8 @@
-import java.lang.reflect.Array;
+//WAP TO REVERSE THE ELEMENT IN AN ARRAY
+
 import java.util.Arrays;
 
-public class elementReverseArray {
+class elementReverseArray {
     public static void main(String[] args) {
         int[] a = { 15,74,63,14,25};
         for ( int i = 0;i<=a.length-1;i++){

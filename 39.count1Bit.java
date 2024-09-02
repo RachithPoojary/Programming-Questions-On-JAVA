@@ -1,4 +1,6 @@
-public class count1Bit {
+//WAP TO COUNT THE NUMBER OF 1 BIT IN THE BINARY FORM OF THE ELEMENTS IN AN ARRAY
+
+class count1Bit {
     public static void main(String[] args) {
         int[] arr = { 10,100,1000,10000};
         int max = count(arr[0]);

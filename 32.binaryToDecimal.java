@@ -1,0 +1,24 @@
+//WAP TO CONVERT BINARY INTO DECIMAL
+
+class binaryToDecimal {
+    public static void main(String[] args) {
+        int n = 11010;
+        int sum = 0;
+        int p = 0;
+        while(n!=0){
+            int digit = n % 10;
+            sum = sum + digit * pow(2,p);
+            p++;
+            n/=10;
+        }
+        System.out.println(sum);
+
+    }
+    public static int pow (int n,int p){
+        int pow = 1;
+        for (int i = 1;i<=p;i++){
+            pow = pow*n;
+        }
+        return pow;
+    }
+}
