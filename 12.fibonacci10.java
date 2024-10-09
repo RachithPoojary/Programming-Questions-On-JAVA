@@ -9,8 +9,8 @@ class fibonacci10 {
         for (int i = 1;i<=num-2;i++){
             int c= a+b;
             System.out.println(c);
-            b=c;
             a=b;
+            b=c;
         }
     }
 }
